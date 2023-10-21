@@ -22,7 +22,7 @@ public class Main {
 
         char firstcharacter = input.charAt(0);
         System.out.println("First character is:"+firstcharacter);
-        if (firstcharacter=='+'||firstcharacter=='*'||firstcharacter=='*')
+        if (firstcharacter=='+'||firstcharacter=='*'||firstcharacter=='/')
         {
             throw new IllegalArgumentException("Please enter a mathematical expression, example:2+3-5 (2 or 3 integers from 1 to 10 included and operators(+-*/) accepted): ");
         }
